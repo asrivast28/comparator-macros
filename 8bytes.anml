@@ -1,75 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <macro-definition id="8bytes" name="8bytes">
-	<description></description>
-		<header>
-			<interface-declarations>
-        <port type="report" id="r31" />
-			</interface-declarations>
-		<parameter-declarations>
-      <parameter parameter-name="%p1" default-value="[\x01]">
-      </parameter>
-      <parameter parameter-name="%p2" default-value="[\x02]">
-      </parameter>
-      <parameter parameter-name="%p4" default-value="[\x04]">
-      </parameter>
-			<parameter parameter-name="%p5" default-value="[\x05]">
-			</parameter>
-			<parameter parameter-name="%p6" default-value="[\x06]">
-			</parameter>
-      <parameter parameter-name="%p7" default-value="[\x07]">
-      </parameter>
-      <parameter parameter-name="%p8" default-value="[\x08]">
-      </parameter>
-      <parameter parameter-name="%p9" default-value="[\x09]">
-      </parameter>
-			<parameter parameter-name="%p10" default-value="[\x0a]">
-			</parameter>
-			<parameter parameter-name="%p11" default-value="[\x0b]">
-			</parameter>
-      <parameter parameter-name="%p12" default-value="[\x0c]">
-      </parameter>
-      <parameter parameter-name="%p13" default-value="[\x0d]">
-      </parameter>
-			<parameter parameter-name="%p14" default-value="[\x0e]">
-			</parameter>
-			<parameter parameter-name="%p15" default-value="[\x0f]">
-			</parameter>
-      <parameter parameter-name="%p16" default-value="[\x10]">
-      </parameter>
-      <parameter parameter-name="%p17" default-value="[\x11]">
-      </parameter>
-      <parameter parameter-name="%p18" default-value="[\x12]">
-      </parameter>
-      <parameter parameter-name="%p19" default-value="[\x13]">
-      </parameter>
-      <parameter parameter-name="%p20" default-value="[\x14]">
-      </parameter>
-      <parameter parameter-name="%p21" default-value="[\x15]">
-      </parameter>
-      <parameter parameter-name="%p22" default-value="[\x16]">
-      </parameter>
-      <parameter parameter-name="%p23" default-value="[\x17]">
-      </parameter>
-      <parameter parameter-name="%p24" default-value="[\x18]">
-      </parameter>
-      <parameter parameter-name="%p25" default-value="[\x19]">
-      </parameter>
-      <parameter parameter-name="%p26" default-value="[\x1a]">
-      </parameter>
-      <parameter parameter-name="%p27" default-value="[\x1b]">
-      </parameter>
-      <parameter parameter-name="%p28" default-value="[\x1c]">
-      </parameter>
-			<parameter parameter-name="%p30" default-value="[\x1e]">
-			</parameter>
-			<parameter parameter-name="%p31" default-value="[\x1f]">
-			</parameter>
-		</parameter-declarations>
-		</header>
-		<body>
-			<port-definitions>
-        <report-alias id="r31" element="__20__"/>
-			</port-definitions>
+  <description></description>
+    <header>
+      <parameter-declarations>
+        <parameter parameter-name="%p1" default-value="[\x01]">
+        </parameter>
+        <parameter parameter-name="%p2" default-value="[\x02]">
+        </parameter>
+        <parameter parameter-name="%p4" default-value="[\x04]">
+        </parameter>
+        <parameter parameter-name="%p5" default-value="[\x05]">
+        </parameter>
+        <parameter parameter-name="%p6" default-value="[\x06]">
+        </parameter>
+        <parameter parameter-name="%p7" default-value="[\x07]">
+        </parameter>
+        <parameter parameter-name="%p8" default-value="[\x08]">
+        </parameter>
+        <parameter parameter-name="%p9" default-value="[\x09]">
+        </parameter>
+        <parameter parameter-name="%p10" default-value="[\x0a]">
+        </parameter>
+        <parameter parameter-name="%p11" default-value="[\x0b]">
+        </parameter>
+        <parameter parameter-name="%p12" default-value="[\x0c]">
+        </parameter>
+        <parameter parameter-name="%p13" default-value="[\x0d]">
+        </parameter>
+        <parameter parameter-name="%p14" default-value="[\x0e]">
+        </parameter>
+        <parameter parameter-name="%p15" default-value="[\x0f]">
+        </parameter>
+        <parameter parameter-name="%p16" default-value="[\x10]">
+        </parameter>
+        <parameter parameter-name="%p17" default-value="[\x11]">
+        </parameter>
+        <parameter parameter-name="%p18" default-value="[\x12]">
+        </parameter>
+        <parameter parameter-name="%p19" default-value="[\x13]">
+        </parameter>
+        <parameter parameter-name="%p20" default-value="[\x14]">
+        </parameter>
+        <parameter parameter-name="%p21" default-value="[\x15]">
+        </parameter>
+        <parameter parameter-name="%p22" default-value="[\x16]">
+        </parameter>
+        <parameter parameter-name="%p23" default-value="[\x17]">
+        </parameter>
+        <parameter parameter-name="%p24" default-value="[\x18]">
+        </parameter>
+        <parameter parameter-name="%p25" default-value="[\x19]">
+        </parameter>
+        <parameter parameter-name="%p26" default-value="[\x1a]">
+        </parameter>
+        <parameter parameter-name="%p27" default-value="[\x1b]">
+        </parameter>
+        <parameter parameter-name="%p28" default-value="[\x1c]">
+        </parameter>
+        <parameter parameter-name="%p30" default-value="[\x1e]">
+        </parameter>
+        <parameter parameter-name="%p31" default-value="[\x1f]">
+        </parameter>
+      </parameter-declarations>
+    </header>
+    <body>
       <state-transition-element id="s1" symbol-set="%p1" start="start-of-data">
         <activate-on-match element="s5"/>
         <activate-on-match element="s6"/>
@@ -217,5 +211,5 @@
         <activate-on-match element="s2"/>
         <activate-on-match element="s4"/>
       </state-transition-element>
-		</body>
+    </body>
 </macro-definition>
