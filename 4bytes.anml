@@ -61,10 +61,10 @@
       <activate-on-match element="s15"/>
     </state-transition-element>
     <state-transition-element id="s14" symbol-set="%p14">
-      <activate-on-match element="__22__"/>
+      <report-on-match/>
     </state-transition-element>
     <state-transition-element id="s15" symbol-set="%p15">
-      <activate-on-match element="__22__"/>
+      <report-on-match/>
     </state-transition-element>
     <state-transition-element id="__16__" symbol-set="*">
       <activate-on-match element="__17__"/>
@@ -73,9 +73,6 @@
       <activate-on-match element="__15__"/>
     </state-transition-element>
     <state-transition-element id="__15__" symbol-set="*">
-      <activate-on-match element="__22__"/>
-    </state-transition-element>
-    <state-transition-element id="__22__" symbol-set="*">
       <report-on-match/>
     </state-transition-element>
     <state-transition-element id="__18__" symbol-set="*" start="start-of-data">
