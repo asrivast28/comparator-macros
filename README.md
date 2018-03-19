@@ -1,7 +1,7 @@
 # Comparator Macros
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%20v2.0-blue.svg)](LICENSE)
 
-This repository contains ANML macros for identifying points stabbing an interval. The repository contains the following four files.
+Comparator macros are used for identifying points stabbing an interval. The repository contains the following four ANML macro files.
 
 * **4bytes.anml**  
 This file contains the definition of macro for programming 4-byte intervals.
